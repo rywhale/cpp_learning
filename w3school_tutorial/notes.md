@@ -115,3 +115,36 @@
    cin >> x; // Get user input from the keyboard
    cout << "Your number is: " << x; // Display the input value
    ```
+
+## Data Types
+* Data type determine size/type of information the variable stores
+
+| Data Type | Size | Description |
+| --------- |:---------:| ---------:|
+| int | 4 bytes | Stores whole numbers, without decimals |
+| float | 4 bytes | Stores fractional numbers, containing one or more decimals. Sufficient for storing 7 decimal digits |
+| double |	8 bytes | Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits |
+| Boolean |	1 byte | Stores true or false values |
+| char |	1 byte| Stores a single character/letter/number, or ASCII values |
+
+* Float vs Double: double can hold more decimal points
+* Floats and doubles can also be specified in scientific notation
+   ```
+   float f1 = 32e3;
+   double d1 = 12E4;
+   ```
+* Booleans can output `0` or `1` for `false` and `true`
+* Char is either a single quoted character
+   ```
+   char a = 'a';
+   ```
+   or by ASCII value
+   ```
+   char a = 65;
+   ```
+* String are not in the `std` library, must include an additional header file in source code
+   ```
+   #include <string>
+   ```
+
+## Operators
